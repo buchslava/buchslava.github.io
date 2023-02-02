@@ -1,0 +1,1296 @@
+[
+  {
+    "id": "1.1.1",
+    "description": "Proportion of population below international poverty line (%)",
+    "summary": "Proportion of population below international poverty line (%)",
+    "type": "Proxy"
+  },
+  {
+    "id": "1.3.1",
+    "description": "Proportion of population covered by health insurance programs (%)",
+    "summary": "Proportion of population covered by health insurance programs (%)",
+    "disaggregations": [
+      "age"
+    ],
+    "type": "Global"
+  },
+  {
+    "id": "1.4.1.a",
+    "description": "Proportion of population using basic drinking water services, by location (%)",
+    "type": "Proxy",
+    "disaggregations": [
+      "age",
+      "sex",
+      "employment status",
+      "income (wealth)"
+    ],
+    "summary": "Proportion of population using basic drinking water services, by location (%)"
+  },
+  {
+    "id": "1.4.1.b",
+    "description": "Proportion of population using basic sanitation services, by location (%)",
+    "disaggregations": [
+      "geographical location"
+    ],
+    "type": "Proxy",
+    "summary": "Proportion of population using basic sanitation services, by location (%)"
+  },
+  {
+    "id": "1.5.1.a",
+    "description": "Number of directly affected persons attributed to disasters per 100,000 population (number)",
+    "type": "Global",
+    "summary": "Number of directly affected persons attributed to disasters per 100,000 population (number)"
+  },
+  {
+    "id": "1.5.1.b",
+    "description": "Number of injured or ill people attributed to disasters (number)",
+    "type": "Global",
+    "summary": "Number of injured or ill people attributed to disasters (number)"
+  },
+  {
+    "id": "1.5.3",
+    "description": "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework",
+    "type": "Global",
+    "summary": "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework"
+  },
+  {
+    "id": "1.5.4.a",
+    "description": "Number of local governments that adopt and implement local DRR strategies in line with national strategies (number)",
+    "type": "Proxy",
+    "summary": "Number of local governments that adopt and implement local DRR strategies in line with national strategies (number)"
+  },
+  {
+    "id": "1.5.4.b",
+    "description": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies (%)",
+    "type": "Proxy",
+    "summary": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies (%)"
+  },
+  {
+    "id": "1.5.4.c",
+    "type": "Proxy",
+    "description": "Number of local governments (number)",
+    "summary": "Number of local governments (number)"
+  },
+  {
+    "id": "1.a.1",
+    "type": "Global",
+    "description": "Official development assistance grants for poverty reduction, by recipient countries (percentage of GNI)",
+    "summary": "Official development assistance grants for poverty reduction, by recipient countries (percentage of GNI)"
+  },
+  {
+    "id": "2.2.1",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "income (wealth)"
+    ],
+    "description": "Proportion of children moderately or severely stunted (%)",
+    "summary": "Stunting prevalence"
+  },
+  {
+    "id": "2.2.2.a",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "income (wealth)"
+    ],
+    "description": "Proportion of children moderately or severely wasted (%)",
+    "summary": "Wasting Prevalence"
+  },
+  {
+    "id": "2.2.2.b",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "income (wealth)"
+    ],
+    "description": "Proportion of children moderately or severely overweight (%)",
+    "summary": "Overweight"
+  },
+  {
+    "id": "2.a.1.a",
+    "type": "Global",
+    "description": "Agriculture value added share of GDP (%)",
+    "summary": "Agriculture value added share of GDP (%)"
+  },
+  {
+    "id": "2.a.1.b",
+    "type": "Global",
+    "description": "Agriculture orientation index for government expenditures",
+    "summary": "Agriculture orientation index for government expenditures"
+  },
+  {
+    "id": "2.a.1.c",
+    "type": "Global",
+    "description": "Agriculture share of Government Expenditure (%)",
+    "summary": "Agriculture share of Government Expenditure (%)"
+  },
+  {
+    "id": "2.a.2",
+    "type": "Global",
+    "description": "Total official flows (disbursements) for agriculture, by recipient countries (millions of constant 2018 United States dollars)",
+    "summary": "Total official flows (disbursements) for agriculture, by recipient countries (millions of constant 2018 United States dollars)"
+  },
+  {
+    "id": "3.1.1",
+    "type": "Global",
+    "description": "Maternal mortality ratio",
+    "summary": "Maternal mortality ratio"
+  },
+  {
+    "id": "3.1.2",
+    "type": "Global",
+    "disaggregations": [
+      "geographical location"
+    ],
+    "description": "Proportion of births attended by skilled health personnel (%)",
+    "summary": "Proportion of births attended by skilled health personnel (%)"
+  },
+  {
+    "id": "3.2.1.a",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Infant mortality rate (deaths per 1,000 live births)",
+    "summary": "Infant mortality rate"
+  },
+  {
+    "id": "3.2.1.b",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "summary": "Under-five mortality rate"
+  },
+  {
+    "id": "3.2.2",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "summary": "Neonatal mortality rate"
+  },
+  {
+    "id": "3.3.5",
+    "type": "Global",
+    "description": "Number of people requiring interventions against neglected tropical diseases (number)",
+    "summary": "Number of people requiring interventions against neglected tropical diseases (number)"
+  },
+  {
+    "id": "3.5.2",
+    "type": "Proxy",
+    "disaggregations": [
+      "age",
+      "sex"
+    ],
+    "description": "Alcohol consumption per capita (aged 15 years and older) within a calendar year (litres of pure alcohol)",
+    "summary": "Alcohol consumption per capita (aged 15 years and older) within a calendar year (litres of pure alcohol)"
+  },
+  {
+    "id": "3.7.1",
+    "type": "Proxy",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods (% of women aged 15-49 years)",
+    "summary": "Proportion of women of reproductive age (aged 15-49 years) who have their need for birth spacing satisfied with modern methods"
+  },
+  {
+    "id": "3.7.2",
+    "type": "Proxy",
+    "disaggregations": [
+      "age",
+      "sex"
+    ],
+    "description": "Adolescent birth rate (per 1,000 women aged 15-19 years)",
+    "summary": "Percentage of married or in union women aged 15-49 who are using (or whose partner is using) a contraceptive method"
+  },
+  {
+    "id": "3.a.1",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex"
+    ],
+    "description": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older, by sex (%)",
+    "summary": "Fertility rate (15-19 age)"
+  },
+  {
+    "id": "3.b.1.a",
+    "type": "Proxy",
+    "disaggregations": [
+      "sex",
+      "geographical location"
+    ],
+    "description": "Proportion of the target population with access to 3 doses of diphtheria-tetanus-pertussis (DTP3) (%)",
+    "summary": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older, by sex (%)"
+  },
+  {
+    "id": "3.b.1.b",
+    "type": "Proxy",
+    "disaggregations": [
+      "sex",
+      "geographical location"
+    ],
+    "description": "Proportion of the target population covered by all vaccines included in their national programme",
+    "summary": "Proportion of the target population with access to 3 doses of diphtheria-tetanus-pertussis (DTP3) (%)"
+  },
+  {
+    "id": "3.b.2.a",
+    "type": "Global",
+    "description": "Total official development assistance to medical research and basic heath sectors, gross disbursement, by recipient countries (millions of constant 2018 United States dollars)",
+    "summary": "Proportion of the target population covered by all vaccines included in their national programme"
+  },
+  {
+    "id": "3.b.2.b",
+    "type": "Global",
+    "description": "Total official development assistance to medical research and basic heath sectors, net disbursement, by recipient countries (millions of constant 2018 United States dollars)",
+    "summary": "Total official development assistance to medical research and basic heath sectors, gross disbursement, by recipient countries (millions of constant 2018 United States dollars)"
+  },
+  {
+    "id": "3.c.1.a",
+    "type": "Global",
+    "disaggregations": [
+      "occupation"
+    ],
+    "description": "Health worker density, by type of occupation (per 10,000 population)",
+    "summary": "Total official development assistance to medical research and basic heath sectors, net disbursement, by recipient countries (millions of constant 2018 United States dollars)"
+  },
+  {
+    "id": "3.c.1.b",
+    "type": "Global",
+    "disaggregations": [
+      "sex",
+      "occupation"
+    ],
+    "description": "Health worker distribution, by sex and type of occupation (%)",
+    "summary": "Health worker density, by type of occupation (per 10,000 population)"
+  },
+  {
+    "id": "3.d.1",
+    "type": "Global",
+    "description": "International Health Regulations (IHR) capacity, by type of IHR capacity (%)",
+    "summary": "Health worker distribution, by sex and type of occupation (%)"
+  },
+  {
+    "id": "4.1.2",
+    "type": "Proxy",
+    "disaggregations": [
+      "sex",
+      "geographical location",
+      "education level"
+    ],
+    "description": "Completion rate, by sex, location, wealth quintile and education level (%)",
+    "summary": "International Health Regulations (IHR) capacity, by type of IHR capacity (%)"
+  },
+  {
+    "id": "4.2.2",
+    "type": "Proxy",
+    "description": "Participation rate in organized learning (one year before the official primary entry age), by sex (%)",
+    "summary": "Primary completion rate"
+  },
+  {
+    "id": "4.5.1",
+    "type": "Global",
+    "disaggregations": [
+      "education level"
+    ],
+    "description": "Gender parity index of trained teachers, by education level (ratio)",
+    "summary": "Secondary completion rate"
+  },
+  {
+    "id": "4.6.1",
+    "type": "Proxy",
+    "disaggregations": [
+      "age",
+      "sex",
+      "type of skill"
+    ],
+    "description": "Proportion of population achieving at least a fixed level of proficiency in functional skills, by sex, age and type of skill (%)",
+    "summary": "University completion rate"
+  },
+  {
+    "id": "4.b.1",
+    "type": "Global",
+    "description": "Total official flows for scholarships, by recipient countries (millions of constant 2018 United States dollars)",
+    "summary": "Pre-school attendance"
+  },
+  {
+    "id": "4.c.1",
+    "type": "Global",
+    "disaggregations": [
+      "education level",
+      "sex"
+    ],
+    "description": "Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country, by sex and education level (%)",
+    "summary": "Gender parity index of trained teachers, by education level (ratio)"
+  },
+  {
+    "id": "5.2.1.a",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "form of violence",
+      "education level",
+      "income (wealth)"
+    ],
+    "description": "Proportion of ever-partnered women and girls subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months, by age (%)",
+    "summary": "Percentage of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy"
+  },
+  {
+    "id": "5.2.1.b",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "education level",
+      "income (wealth)"
+    ],
+    "description": "Proportion of ever-partnered women and girls subjected to physical violence by a current or former intimate partner in the previous 12 months, by age (%)",
+    "summary": "Total official flows for scholarships, by recipient countries (millions of constant 2018 United States dollars)"
+  },
+  {
+    "id": "5.2.1.c",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "education level",
+      "income (wealth)"
+    ],
+    "description": "Proportion of ever-partnered women and girls subjected to psychological violence by a current or former intimate partner in the previous 12 months, by age (%)",
+    "summary": "Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country, by sex and education level (%)"
+  },
+  {
+    "id": "5.2.1.d",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "income (wealth)"
+    ],
+    "description": "Proportion of ever-partnered women and girls subjected to sexual violence by a current or former intimate partner in the previous 12 months, by age (%)",
+    "summary": "Percentage of ever-married women aged 15-49 who have ever experienced Physical and sexual violence committed by their husband"
+  },
+  {
+    "id": "5.3.1.a",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Proportion of women aged 20-24 years who were married or in a union before age 15 (%)",
+    "summary": "Percentage of ever-married women aged 15-49 who have ever experienced Physical or sexual violence committed by their husband"
+  },
+  {
+    "id": "5.3.1.b",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Proportion of women aged 20-24 years who were married or in a union before age 18 (%)",
+    "summary": "Percentage of ever-married women aged 15-49 who have ever experienced physical violence committed by their husband"
+  },
+  {
+    "id": "5.3.2",
+    "type": "Proxy",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age (%)",
+    "summary": "Percentage of ever-married women aged 15-49 who have ever experienced physical violence committed by their husband"
+  },
+  {
+    "id": "5.5.1.a",
+    "type": "Global",
+    "disaggregations": [
+      "sex"
+    ],
+    "description": "Proportion of seats held by women in national parliaments (% of total number of seats)",
+    "summary": "Percentage of ever-married women aged 15-49 who have ever experienced emotional committed by their husband, by background characteristics,"
+  },
+  {
+    "id": "5.5.1.b",
+    "type": "Global",
+    "disaggregations": [
+      "sex"
+    ],
+    "description": "Number of seats held by women in national parliaments (number)",
+    "summary": "Percentage of ever-married women aged 15-49 who have ever experienced sexual violence committed by their husband"
+  },
+  {
+    "id": "5.5.1.c",
+    "type": "Global",
+    "disaggregations": [
+      "sex"
+    ],
+    "description": "Current number of seats in national parliaments (number)",
+    "summary": "Proportion of women aged 20-24 years who were married or in a union before age 15"
+  },
+  {
+    "id": "5.6.1",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Proportion of women who make their own informed decisions regarding contraceptive use (% of women aged 15-49 years)",
+    "summary": "Proportion of women aged 20-24 years who were married before age 18"
+  },
+  {
+    "id": "5.6.2.a",
+    "type": "Global",
+    "description": "(S.1.C.1) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 1: Maternity Care (%)",
+    "summary": "Proportion of girls and women aged 15-49 years who have undergone female genital"
+  },
+  {
+    "id": "5.6.2.b",
+    "type": "Global",
+    "description": "(S.4.C.10) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 10: HIV Counselling and Test Services",
+    "summary": "Proportion of seats held by women in national parliaments (% of total number of seats)"
+  },
+  {
+    "id": "5.6.2.c",
+    "type": "Global",
+    "description": "(S.4.C.11) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 11: HIV Treatment and Care Services (%)",
+    "summary": "Number of seats held by women in national parliaments (number)"
+  },
+  {
+    "id": "5.6.2.d",
+    "type": "Global",
+    "description": "(S.4.C.12) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 12: HIV Confidentiality (%)",
+    "summary": "Current number of seats in national parliaments (number)"
+  },
+  {
+    "id": "5.6.2.e",
+    "type": "Global",
+    "description": "(S.4.C.13) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 13: HPV Vaccine (%)",
+    "summary": "Percentage of married or in union women aged 15-49 who are using (or whose partner is using) a contraceptive method"
+  },
+  {
+    "id": "5.6.2.f",
+    "type": "Global",
+    "description": "(S.1.C.2) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 2: Life Saving Commodities (%)",
+    "summary": "(S.1.C.1) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 1: Maternity Care (%)"
+  },
+  {
+    "id": "5.6.2.g",
+    "type": "Global",
+    "description": "(S.1.C.4) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 4: Post-Abortion Care (%)",
+    "summary": "(S.4.C.10) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 10: HIV Counselling and Test Services"
+  },
+  {
+    "id": "5.6.2.h",
+    "type": "Global",
+    "description": "(S.2.C.5) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 5: Contraceptive Services (%)",
+    "summary": "(S.4.C.11) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 11: HIV Treatment and Care Services (%)"
+  },
+  {
+    "id": "5.6.2.i",
+    "type": "Global",
+    "description": "(S.2.C.6) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 6: Contraceptive Consent (%)",
+    "summary": "(S.4.C.12) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 12: HIV Confidentiality (%)"
+  },
+  {
+    "id": "5.6.2.j",
+    "type": "Global",
+    "description": "(S.2.C.7) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 7: Emergency Contraception (%)",
+    "summary": "(S.4.C.13) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 13: HPV Vaccine (%)"
+  },
+  {
+    "id": "5.6.2.k",
+    "type": "Global",
+    "description": "(S.3.C.8) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 8: Sexuality Education Curriculum Laws (%)",
+    "summary": "(S.1.C.2) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 2: Life Saving Commodities (%)"
+  },
+  {
+    "id": "5.6.2.l",
+    "type": "Global",
+    "description": "(S.3.C.9) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 9: Sexuality Education Curriculum Topics (%)",
+    "summary": "(S.1.C.4) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 4: Post-Abortion Care (%)"
+  },
+  {
+    "id": "5.6.2.m",
+    "type": "Global",
+    "description": "(S.2) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 2: Contraceptive and Family Planning (%)",
+    "summary": "(S.2.C.5) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 5: Contraceptive Services (%)"
+  },
+  {
+    "id": "5.6.2.n",
+    "type": "Global",
+    "description": "(S.3) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 3: Sexuality Education (%)",
+    "summary": "(S.2.C.6) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 6: Contraceptive Consent (%)"
+  },
+  {
+    "id": "5.6.2.o",
+    "type": "Global",
+    "description": "(S.4) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 4: HIV and HPV (%)",
+    "summary": "(S.2.C.7) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 7: Emergency Contraception (%)"
+  },
+  {
+    "id": "5.b.1",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "education level",
+      "income (wealth)"
+    ],
+    "description": "Proportion of individuals who own a mobile telephone, by sex (%)",
+    "summary": "(S.3.C.8) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 8: Sexuality Education Curriculum Laws (%)"
+  },
+  {
+    "id": "6.2.1.a",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "geographical location"
+    ],
+    "description": "Proportion of population practicing open defecation, by urban/rural (%)",
+    "summary": "(S.3.C.9) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 9: Sexuality Education Curriculum Topics (%)"
+  },
+  {
+    "id": "6.2.1.b",
+    "type": "Global",
+    "disaggregations": [
+      "geographical location"
+    ],
+    "description": "Proportion of population with basic handwashing facilities on premises, by urban/rural (%)",
+    "summary": "(S.2) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 2: Contraceptive and Family Planning (%)"
+  },
+  {
+    "id": "6.4.2",
+    "type": "Global",
+    "description": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources (%)",
+    "summary": "(S.3) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 3: Sexuality Education (%)"
+  },
+  {
+    "id": "6.5.1",
+    "type": "Proxy",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "occupation",
+      "sector"
+    ],
+    "description": "Degree of integrated water resources management implementation (%)",
+    "summary": "(S.4) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 4: HIV and HPV (%)"
+  },
+  {
+    "id": "6.5.2.a",
+    "type": "Global",
+    "description": "Proportion of transboundary basins (river and lake basins and aquifers) with an operational arrangement for water cooperation (%)",
+    "summary": "Ownership of Cellphone by type"
+  },
+  {
+    "id": "6.5.2.b",
+    "type": "Global",
+    "description": "Proportion of transboundary aquifers with an operational arrangement for water cooperation (%)",
+    "summary": "Proportion of individuals who own a mobile telephone"
+  },
+  {
+    "id": "6.5.2.c",
+    "type": "Global",
+    "description": "Proportion of transboundary river and lake basins with an operational arrangement for water cooperation (%)",
+    "summary": "Defecation"
+  },
+  {
+    "id": "6.a.1",
+    "type": "Global",
+    "description": "Total official development assistance (gross disbursement) for water supply and sanitation, by recipient countries (millions of constant 2018 United States dollars)",
+    "summary": "handwashing facility (soap + water)"
+  },
+  {
+    "id": "7.1.1",
+    "type": "Global",
+    "disaggregations": [
+      "geographical location"
+    ],
+    "description": "Proportion of population with access to electricity, by urban/rural (%)",
+    "summary": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources (%)"
+  },
+  {
+    "id": "7.1.2",
+    "type": "Proxy",
+    "disaggregations": [
+      "geographical location"
+    ],
+    "description": "Proportion of population with primary reliance on clean fuels and technology for cooking",
+    "summary": "Degree of integrated water resources management implementation (%)"
+  },
+  {
+    "id": "7.a.1",
+    "type": "Global",
+    "description": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems (millions of constant United States dollars)",
+    "summary": "Proportion of transboundary basins (river and lake basins and aquifers) with an operational arrangement for water cooperation (%)"
+  },
+  {
+    "id": "8.1.1",
+    "type": "Global",
+    "description": "Annual growth rate of real GDP per capita (%)",
+    "summary": "Proportion of transboundary aquifers with an operational arrangement for water cooperation (%)"
+  },
+  {
+    "id": "8.2.1",
+    "type": "Global",
+    "description": "Annual growth rate of real GDP per employed person",
+    "summary": "Annual growth rate of real GDP per employed person",
+    "disaggregations": []
+  },
+  {
+    "id": "8.3.1",
+    "type": "Global",
+    "description": "Proportion of informal employment in non‑agriculture employment, by sex",
+    "summary": "Proportion of informal employment in non‑agriculture employment, by sex",
+    "disaggregations": [
+      "sex",
+      "type of employment"
+    ]
+  },
+  {
+    "id": "8.5.1",
+    "type": "Global",
+    "description": "Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",
+    "summary": "Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",
+    "disaggregations": ["sex", "age"]
+  },
+  {
+    "id": "8.6.1",
+    "type": "Global",
+    "description": "Proportion of youth (aged 15–24 years) not in education, employment or training",
+    "summary": "Proportion of youth (aged 15–24 years) not in education, employment or training",
+    "disaggregations": ["age"]
+  },
+  {
+    "id": "8.8.1",
+    "type": "Global",
+    "description": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
+    "summary": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
+    "disaggregations": []
+  },
+  {
+    "id": "8.10.2",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "education level",
+      "income (wealth)"
+    ],
+    "description": "Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider, by sex (% of adults aged 15 years and older)",
+    "summary": "Proportion of transboundary river and lake basins with an operational arrangement for water cooperation (%)"
+  },
+  {
+    "id": "8.5.2",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Unemployment rate, by sex and age (%)",
+    "summary": "Total official development assistance (gross disbursement) for water supply and sanitation, by recipient countries (millions of constant 2018 United States dollars)"
+  },
+  {
+    "id": "8.7.1",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Proportion of children engaged in economic activity, by sex and age (%)",
+    "summary": "Proportion of population with access to electricity"
+  },
+  {
+    "id": "8.a.1.a",
+    "type": "Global",
+    "description": "Total official flows (commitments) for Aid for Trade, by recipient countries (millions of constant 2018 United States dollars)",
+    "summary": "Percentage using clean fuel for cooking"
+  },
+  {
+    "id": "8.a.1.b",
+    "type": "Global",
+    "description": "Total official flows (disbursement) for Aid for Trade, by recipient countries (millions of constant 2018 United States dollars)",
+    "summary": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems (millions of constant United States dollars)"
+  },
+  {
+    "id": "9.1.2.a",
+    "type": "Global",
+    "disaggregations": [
+      "mode of transport"
+    ],
+    "description": "Freight volume, by mode of transport (tonne kilometres)",
+    "summary": "Annual growth rate of real GDP per capita (%)"
+  },
+  {
+    "id": "9.1.2.b",
+    "type": "Global",
+    "disaggregations": [
+      "mode of transport"
+    ],
+    "description": "Passenger volume (passenger kilometres), by mode of transport",
+    "summary": "Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider, by sex (% of adults aged 15 years and older)"
+  },
+  {
+    "id": "9.a.1",
+    "type": "Global",
+    "description": "Total official flows for infrastructure, by recipient countries (millions of constant 2018 United States dollars)",
+    "summary": "Proportion of adults (15 years and older) n/a with an account at a bank or other financial institution"
+  },
+  {
+    "id": "9.c.1.a",
+    "type": "Global",
+    "description": "Proportion of population covered by at least a 2G mobile network (%)",
+    "summary": "Unemployment rate"
+  },
+  {
+    "id": "9.c.1.b",
+    "type": "Global",
+    "description": "Proportion of population covered by at least a 3G mobile network (%)",
+    "summary": "Percentage of children 5-14 years of age who are currently working"
+  },
+  {
+    "id": "9.c.1.c",
+    "type": "Global",
+    "description": "Proportion of population covered by at least a 4G mobile network (%)",
+    "summary": "Child labour"
+  },
+  {
+    "id": "10.6.1.a",
+    "type": "Global",
+    "disaggregations": [
+      "international organization"
+    ],
+    "description": "Proportion of members of developing countries in international organizations, by organization (%)",
+    "summary": "Total official flows (commitments) for Aid for Trade, by recipient countries (millions of constant 2018 United States dollars)"
+  },
+  {
+    "id": "10.6.1.b",
+    "type": "Global",
+    "description": "Proportion of voting rights of developing countries in international organizations, by organization (%)",
+    "summary": "Total official flows (disbursement) for Aid for Trade, by recipient countries (millions of constant 2018 United States dollars)"
+  },
+  {
+    "id": "10.7.2",
+    "type": "Proxy",
+    "disaggregations": [
+      "policy"
+    ],
+    "description": "Countries with migration policies to facilitate orderly, safe, regular and responsible migration and mobility of people, by policy domain (1 = Requires further progress; 2 = Partially meets; 3 = Meets; 4 = Fully meets)",
+    "summary": "Freight volume, by mode of transport (tonne kilometres)"
+  },
+  {
+    "id": "10.7.3",
+    "type": "Global",
+    "description": "Total deaths and disappearances recorded during migration (number)",
+    "summary": "Passenger volume (passenger kilometres), by mode of transport"
+  },
+  {
+    "id": "10.7.4",
+    "type": "Global",
+    "description": "Number of refugees per 100,000 population, by country of origin (per 100,000 population)",
+    "summary": "Total official flows for infrastructure, by recipient countries (millions of constant 2018 United States dollars)"
+  },
+  {
+    "id": "10.a.1",
+    "type": "Global",
+    "disaggregations": [
+      "sector"
+    ],
+    "description": "Proportion of tariff lines applied to imports with zero-tariff (%)",
+    "summary": "Proportion of population covered by at least a 2G mobile network (%)"
+  },
+  {
+    "id": "10.b.1",
+    "type": "Global",
+    "description": "Total assistance for development, by recipient countries (millions of current United States dollars)",
+    "summary": "Proportion of population covered by at least a 3G mobile network (%)"
+  },
+  {
+    "id": "11.5.1.a",
+    "type": "Global",
+    "description": "Number of directly affected persons attributed to disasters per 100,000 population (number)",
+    "summary": "Proportion of population covered by at least a 4G mobile network (%)"
+  },
+  {
+    "id": "11.5.1.b",
+    "type": "Global",
+    "description": "Number of injured or ill people attributed to disasters (number)",
+    "summary": "Proportion of members of developing countries in international organizations, by organization (%)"
+  },
+  {
+    "id": "11.5.2",
+    "type": "Global",
+    "description": "Number of disruptions to other basic services attributed to disasters (number)",
+    "summary": "Proportion of voting rights of developing countries in international organizations, by organization (%)"
+  },
+  {
+    "id": "11.a.1",
+    "type": "Global",
+    "description": "Countries that have national urban policies or regional development plans that respond to population dynamics; ensure balanced territorial development; and increase local fiscal space (1 = YES; 0 = NO)",
+    "summary": "Countries with migration policies to facilitate orderly, safe, regular and responsible migration and mobility of people, by policy domain (1 = Requires further progress; 2 = Partially meets; 3 = Meets; 4 = Fully meets)"
+  },
+  {
+    "id": "11.b.1",
+    "type": "Global",
+    "description": "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework",
+    "summary": "Total deaths and disappearances recorded during migration (number)"
+  },
+  {
+    "id": "11.b.2.a",
+    "type": "Global",
+    "description": "Number of local governments that adopt and implement local DRR strategies in line with national strategies (number)",
+    "summary": "Number of refugees per 100,000 population, by country of origin (per 100,000 population)"
+  },
+  {
+    "id": "11.b.2.b",
+    "type": "Global",
+    "description": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies (%)",
+    "summary": "Proportion of tariff lines applied to imports with zero-tariff (%)"
+  },
+  {
+    "id": "11.b.2.c",
+    "type": "Global",
+    "description": "Number of local governments (number)",
+    "summary": "Total assistance for development, by recipient countries (millions of current United States dollars)"
+  },
+  {
+    "id": "12.4.1.a",
+    "type": "Global",
+    "description": "Parties meeting their commitments and obligations in transmitting information as required by Basel Convention on hazardous waste, and other chemicals",
+    "summary": "Number of directly affected persons attributed to disasters per 100,000 population (number)"
+  },
+  {
+    "id": "12.4.1.b",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "occupation",
+      "sector"
+    ],
+    "description": "Parties meeting their commitments and obligations in transmitting information as required by Montreal Protocol on hazardous waste, and other chemicals",
+    "summary": "Number of injured or ill people attributed to disasters (number)"
+  },
+  {
+    "id": "12.4.1.c",
+    "type": "Global",
+    "description": "Parties meeting their commitments and obligations in transmitting information as required by Rotterdam Convention on hazardous waste, and other chemicals",
+    "summary": "Number of disruptions to other basic services attributed to disasters (number)"
+  },
+  {
+    "id": "12.4.1.d",
+    "type": "Global",
+    "description": "Parties meeting their commitments and obligations in transmitting information as required by Stockholm Convention on hazardous waste, and other chemicals",
+    "summary": "Countries that have national urban policies or regional development plans that respond to population dynamics; ensure balanced territorial development; and increase local fiscal space (1 = YES; 0 = NO)"
+  },
+  {
+    "id": "12.6.1",
+    "type": "Global",
+    "description": "Number of companies publishing sustainability reports with disclosure by dimension, by level of requirement (Number)",
+    "summary": "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework"
+  },
+  {
+    "id": "13.1.1.a",
+    "type": "Global",
+    "description": "Number of directly affected persons attributed to disasters per 100,000 population (number)",
+    "summary": "Number of local governments that adopt and implement local DRR strategies in line with national strategies (number)"
+  },
+  {
+    "id": "13.1.1.b",
+    "type": "Global",
+    "description": "Number of injured or ill people attributed to disasters (number)",
+    "summary": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies (%)"
+  },
+  {
+    "id": "13.1.2",
+    "type": "Global",
+    "description": "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework",
+    "summary": "Number of local governments (number)"
+  },
+  {
+    "id": "13.1.3.a",
+    "type": "Proxy",
+    "description": "Number of local governments that adopt and implement local DRR strategies in line with national strategies (number)",
+    "summary": "Parties meeting their commitments and obligations in transmitting information as required by Basel Convention on hazardous waste, and other chemicals"
+  },
+  {
+    "id": "13.1.3.b",
+    "type": "Proxy",
+    "description": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies (%)",
+    "summary": "Parties meeting their commitments and obligations in transmitting information as required by Montreal Protocol on hazardous waste, and other chemicals"
+  },
+  {
+    "id": "13.1.3.c",
+    "type": "Proxy",
+    "description": "Number of local governments (number)",
+    "summary": "Parties meeting their commitments and obligations in transmitting information as required by Rotterdam Convention on hazardous waste, and other chemicals"
+  },
+  {
+    "id": "14.5.1",
+    "type": "Global",
+    "description": "Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas (%)",
+    "summary": "Parties meeting their commitments and obligations in transmitting information as required by Stockholm Convention on hazardous waste, and other chemicals"
+  },
+  {
+    "id": "14.6.1",
+    "type": "Global",
+    "description": "Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing (level of implementation: 1 lowest to 5 highest)",
+    "summary": "Number of companies publishing sustainability reports with disclosure by dimension, by level of requirement (Number)"
+  },
+  {
+    "id": "14.b.1",
+    "type": "Global",
+    "description": "Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest)",
+    "summary": "Number of directly affected persons attributed to disasters per 100,000 population (number)"
+  },
+  {
+    "id": "15.1.1.a",
+    "type": "Proxy",
+    "description": "Forest area as a proportion of total land area (%)",
+    "summary": "Number of injured or ill people attributed to disasters (number)"
+  },
+  {
+    "id": "15.1.1.b",
+    "type": "Proxy",
+    "description": "Forest area (thousands of hectares)",
+    "summary": "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework"
+  },
+  {
+    "id": "15.1.1.c",
+    "type": "Proxy",
+    "description": "Land area (thousands of hectares)",
+    "summary": "Number of local governments that adopt and implement local DRR strategies in line with national strategies (number)"
+  },
+  {
+    "id": "15.1.2.a",
+    "type": "Global",
+    "description": "Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas (%)",
+    "summary": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies (%)"
+  },
+  {
+    "id": "15.1.2.b",
+    "type": "Global",
+    "description": "Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (%)",
+    "summary": "Number of local governments (number)"
+  },
+  {
+    "id": "15.2.1.a",
+    "type": "Global",
+    "description": "Above-ground biomass stock in forest (tonnes per hectare)",
+    "summary": "Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas (%)"
+  },
+  {
+    "id": "15.2.1.b",
+    "type": "Global",
+    "description": "Forest area annual net change rate (%)",
+    "summary": "Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing (level of implementation: 1 lowest to 5 highest)"
+  },
+  {
+    "id": "15.3.1",
+    "type": "Global",
+    "description": "Proportion of land that is degraded over total land area (%)",
+    "summary": "Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest)"
+  },
+  {
+    "id": "15.4.1",
+    "type": "Global",
+    "description": "Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas (%)",
+    "summary": "Forest area as a proportion of total land area (%)"
+  },
+  {
+    "id": "15.6.1.a",
+    "type": "Global",
+    "description": "Countries that have legislative, administrative and policy framework or measures reported to the Access and Benefit-Sharing Clearing-House (1 = YES; 0 = NO)",
+    "summary": "Forest area (thousands of hectares)"
+  },
+  {
+    "id": "15.6.1.b",
+    "type": "Global",
+    "description": "Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)",
+    "summary": "Land area (thousands of hectares)"
+  },
+  {
+    "id": "15.6.1.c",
+    "type": "Global",
+    "description": "Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)",
+    "summary": "Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas (%)"
+  },
+  {
+    "id": "15.6.1.d",
+    "type": "Global",
+    "description": "Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)",
+    "summary": "Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (%)"
+  },
+  {
+    "id": "15.6.1.e",
+    "type": "Global",
+    "description": "Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country (number)",
+    "summary": "Above-ground biomass stock in forest (tonnes per hectare)"
+  },
+  {
+    "id": "15.9.1",
+    "type": "National",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location",
+      "occupation",
+      "sector"
+    ],
+    "description": "Countries that established national targets in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020 in their National Biodiversity Strategy and Action Plans (1 = YES; 0 = NO)",
+    "summary": "Forest area annual net change rate (%)"
+  },
+  {
+    "id": "15.a.1",
+    "type": "Global",
+    "description": "Total official development assistance for biodiversity, by recipient countries (millions of constant 2018 United States dollars)",
+    "summary": "Proportion of land that is degraded over total land area (%)"
+  },
+  {
+    "id": "15.b.1",
+    "type": "Global",
+    "description": "Total official development assistance for biodiversity, by recipient countries (millions of constant 2018 United States dollars)",
+    "summary": "Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas (%)"
+  },
+  {
+    "id": "16.6.1",
+    "type": "Global",
+    "description": "Primary government expenditures as a proportion of original approved budget (%)",
+    "summary": "Countries that have legislative, administrative and policy framework or measures reported to the Access and Benefit-Sharing Clearing-House (1 = YES; 0 = NO)"
+  },
+  {
+    "id": "16.7.1.a",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex"
+    ],
+    "description": "Number of chairs of permanent committees, by age sex and focus of the committee, Lower Chamber or Unicameral",
+    "summary": "Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)"
+  },
+  {
+    "id": "16.7.1.b",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex"
+    ],
+    "description": "Number of chairs of permanent committees, by age sex and focus of the committee, Upper Chamber",
+    "summary": "Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"
+  },
+  {
+    "id": "16.7.1.c",
+    "type": "Global",
+    "description": "Ratio for female members of parliaments (Ratio of the proportion of women in parliament in the proportion of women in the national population with the age of eligibility as a lower bound boundary), Lower Chamber or Unicameral",
+    "summary": "Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"
+  },
+  {
+    "id": "16.7.1.d",
+    "type": "Global",
+    "description": "Ratio for female members of parliaments (Ratio of the proportion of women in parliament in the proportion of women in the national population with the age of eligibility as a lower bound boundary), Upper Chamber",
+    "summary": "Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country (number)"
+  },
+  {
+    "id": "16.7.1.e",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex"
+    ],
+    "description": "Number of speakers in parliament, by age and sex , Lower Chamber or Unicameral",
+    "summary": "Countries that established national targets in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020 in their National Biodiversity Strategy and Action Plans (1 = YES; 0 = NO)"
+  },
+  {
+    "id": "16.7.1.f",
+    "type": "Global",
+    "disaggregations": [
+      "age",
+      "sex"
+    ],
+    "description": "Number of speakers in parliament, by age and sex, Upper Chamber",
+    "summary": "Total official development assistance for biodiversity, by recipient countries (millions of constant 2018 United States dollars)"
+  },
+  {
+    "id": "16.7.1.g",
+    "type": "Global",
+    "disaggregations": [
+      "age"
+    ],
+    "description": "Number of youth in parliament (age 45 or below), Upper Chamber (Number)",
+    "summary": "Total official development assistance for biodiversity, by recipient countries (millions of constant 2018 United States dollars)"
+  },
+  {
+    "id": "16.7.1.h",
+    "type": "Global",
+    "disaggregations": [
+      "age"
+    ],
+    "description": "Proportion of youth in parliament (age 45 or below), Upper Chamber (%)",
+    "summary": "Primary government expenditures as a proportion of original approved budget (%)"
+  },
+  {
+    "id": "16.7.1.i",
+    "type": "Global",
+    "disaggregations": [
+      "age"
+    ],
+    "description": "Ratio of young members in parliament (Ratio of the proportion of young members in parliament (age 45 or below) in the proportion of the national population (age 45 or below) with the age of eligibility as a lower bound boundary), Upper Chamber",
+    "summary": "Number of chairs of permanent committees, by age sex and focus of the committee, Lower Chamber or Unicameral"
+  },
+  {
+    "id": "16.8.1.a",
+    "type": "Proxy",
+    "disaggregations": [
+      "international organization"
+    ],
+    "description": "Proportion of members of developing countries in international organizations, by organization (%)",
+    "summary": "Number of chairs of permanent committees, by age sex and focus of the committee, Upper Chamber"
+  },
+  {
+    "id": "16.8.1.b",
+    "type": "Proxy",
+    "description": "Proportion of voting rights of developing countries in international organizations, by organization (%)",
+    "summary": "Ratio for female members of parliaments (Ratio of the proportion of women in parliament in the proportion of women in the national population with the age of eligibility as a lower bound boundary), Lower Chamber or Unicameral"
+  },
+  {
+    "id": "16.9.1",
+    "type": "Proxy",
+    "disaggregations": [
+      "age",
+      "sex",
+      "geographical location"
+    ],
+    "description": "Proportion of children under 5 years of age whose births have been registered with a civil authority (% of children under 5 years of age)",
+    "summary": "Ratio for female members of parliaments (Ratio of the proportion of women in parliament in the proportion of women in the national population with the age of eligibility as a lower bound boundary), Upper Chamber"
+  },
+  {
+    "id": "16.a.1",
+    "type": "Global",
+    "description": "Countries with no application for accreditation with the Paris Principles, D status (1 = YES; 0 = NO)",
+    "summary": "Number of speakers in parliament, by age and sex , Lower Chamber or Unicameral"
+  },
+  {
+    "id": "17.12.1.a",
+    "type": "Global",
+    "disaggregations": [
+      "sector"
+    ],
+    "description": "Average tariff applied by developed countries, most-favored nation status, by type of product (%)",
+    "summary": "Number of speakers in parliament, by age and sex, Upper Chamber"
+  },
+  {
+    "id": "17.12.1.b",
+    "type": "Global",
+    "disaggregations": [
+      "sector"
+    ],
+    "description": "Average tariff applied by developed countries, preferential status, by type of product (%)",
+    "summary": "Number of youth in parliament (age 45 or below), Upper Chamber (Number)"
+  },
+  {
+    "id": "17.15.1.a",
+    "type": "Global",
+    "description": "Proportion of project objectives in new development interventions drawn from country-led result frameworks - data by recipient (%)",
+    "summary": "Proportion of youth in parliament (age 45 or below), Upper Chamber (%)"
+  },
+  {
+    "id": "17.15.1.b",
+    "type": "Global",
+    "description": "Proportion of results indicators drawn from country-led results frameworks - data by recipient (%)",
+    "summary": "Ratio of young members in parliament (Ratio of the proportion of young members in parliament (age 45 or below) in the proportion of the national population (age 45 or below) with the age of eligibility as a lower bound boundary), Upper Chamber"
+  },
+  {
+    "id": "17.15.1.c",
+    "type": "Global",
+    "description": "Proportion of results indicators which will be monitored using government sources and monitoring systems - data by recipient (%)",
+    "summary": "Proportion of members of developing countries in international organizations, by organization (%)"
+  },
+  {
+    "id": "17.15.1.d",
+    "type": "Global",
+    "description": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by recipient (%)",
+    "summary": "Proportion of voting rights of developing countries in international organizations, by organization (%)"
+  },
+  {
+    "id": "17.17.1.a",
+    "type": "Global",
+    "description": "Amount of United States dollars committed to public-private partnerships for infrastructure, million USD nominal",
+    "summary": "Percent distribution of children aged 0-59 months by whether birth is registered  (<5Y children)"
+  },
+  {
+    "id": "17.17.1.b",
+    "type": "Global",
+    "description": "Amount of United States dollars committed to public-private partnerships for infrastructure, million USD real",
+    "summary": "Proportion of children under 5 years of age whose births have been registered with a civil authority"
+  },
+  {
+    "id": "17.19.1",
+    "type": "Global",
+    "description": "Dollar value of all resources made available to strengthen statistical capacity in developing countries (current United States dollars)",
+    "summary": "Countries with no application for accreditation with the Paris Principles, D status  (1 = YES; 0 = NO)"
+  },
+  {
+    "id": "17.3.1",
+    "type": "Global",
+    "description": "Foreign direct investment (FDI) inflows (millions of US dollars)",
+    "summary": "Average tariff applied by developed countries, most-favored nation status, by type of product (%)"
+  },
+  {
+    "id": "17.6.1",
+    "type": "Global",
+    "disaggregations": [
+      "internet speed"
+    ],
+    "description": "Number of fixed Internet broadband subscriptions, by speed (number)",
+    "summary": "Average tariff applied by developed countries, preferential status, by type of product (%)"
+  },
+  {
+    "id": "17.8.1",
+    "type": "Global",
+    "disaggregations": [
+      "sex"
+    ],
+    "description": "Internet users per 100 inhabitants",
+    "summary": "Proportion of project objectives in new development interventions drawn from country-led result frameworks - data by recipient (%)"
+  },
+  {
+    "id": "17.9.1",
+    "type": "Global",
+    "description": "Total official development assistance (gross disbursement) for technical cooperation (millions of 2018 United States dollars)",
+    "summary": "Proportion of results indicators drawn from country-led results frameworks - data by recipient (%)"
+  }
+]
